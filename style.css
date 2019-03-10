@@ -399,8 +399,7 @@ optgroup,
 textarea {
   color: #404040;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px;
-  font-size: 1rem;
+  font-size: 1.0625rem;
   line-height: 1.5;
 }
 
@@ -1005,7 +1004,9 @@ object {
 }
 
 /* =Author styles	===========================*/
-
+:root {
+	font-size: 100%;
+  }
 .site-content {
   margin: 0 auto;
   width: 80%;
@@ -1015,10 +1016,22 @@ object {
 	text-decoration: none;
 }
 
+.site-header	{
+	border-bottom: 2px solid #d75110;
+}
+
+.main-navigation	{
+	font-weight: 700;
+}
+
 
 .menu ul,
 ol {
   margin: 0;
+}
+
+.site-footer	{
+	border-top: 2px solid #d75110;
 }
 /* =Media queries----------------------------------------- */
 @media screen and (min-width: 700px) {
@@ -1037,7 +1050,16 @@ ol {
 }
 .main-navigation {
     display: flex;
-    margin-right: 30px;
     flex-direction: row;
-    justify-content: flex-end;
+	justify-content: flex-end;
+	align-items: center;
   }	
+
+  .menu ul	{
+	display: flex;
+	justify-content: flex-end;
+  }	
+
+  .menu li {
+	  padding-right: 1rem;
+  }
