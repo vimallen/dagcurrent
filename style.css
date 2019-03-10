@@ -397,7 +397,7 @@ input,
 select,
 optgroup,
 textarea {
-  color: #404040;
+  color: #3a3a3a;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.0625rem;
   line-height: 1.5;
@@ -630,17 +630,17 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-  color: royalblue;
+  color: #d75110;
 }
 
 a:visited {
-  color: purple;
+  color: #d75110;
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: midnightblue;
+  color: teal;
 }
 
 a:focus {
@@ -650,6 +650,14 @@ a:focus {
 a:hover,
 a:active {
   outline: 0;
+}
+
+.site-header a {
+  color: #3a3a3a;
+}
+
+.site-header a:hover {
+  color: teal;
 }
 
 /*--------------------------------------------------------------
@@ -791,7 +799,7 @@ a:active {
 /*--------------------------------------------------------------
 # Alignments
 --------------------------------------------------------------*/
-.alignleft {
+/* .alignleft {
   display: inline;
   float: left;
   margin-right: 1.5em;
@@ -808,7 +816,7 @@ a:active {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 /*--------------------------------------------------------------
 # Clearings
@@ -1005,61 +1013,61 @@ object {
 
 /* =Author styles	===========================*/
 :root {
-	font-size: 100%;
-  }
+  font-size: 100%;
+}
 .site-content {
   margin: 0 auto;
   width: 80%;
 }
 
-.site-branding a	{
-	text-decoration: none;
+.site-branding a {
+  text-decoration: none;
 }
 
-.site-header	{
-	border-bottom: 2px solid #d75110;
+.site-header {
+  border-bottom: 2px solid #d75110;
 }
 
-.main-navigation	{
-	font-weight: 700;
+.main-navigation {
+  font-weight: 700;
 }
-
 
 .menu ul,
 ol {
   margin: 0;
 }
 
-.site-footer	{
-	border-top: 2px solid #d75110;
+.site-footer {
+  border-top: 2px solid #d75110;
 }
 /* =Media queries----------------------------------------- */
 @media screen and (min-width: 700px) {
-	body {
-	  font-size: 1.25rem;
-	}
-	p {
-	  max-width: 40rem;
-	}
+  body {
+    font-size: 1.25rem;
+  }
+  p {
+    max-width: 40rem;
+  }
 
-	.site-header	{
-	display: flex;
+  .site-header {
+    display: flex;
     justify-content: space-between;
     padding-bottom: 0;
     align-items: center;
-}
-.main-navigation {
+  }
+  .main-navigation {
     display: flex;
     flex-direction: row;
-	justify-content: flex-end;
-	align-items: center;
-  }	
+    justify-content: flex-end;
+    align-items: center;
+  }
 
-  .menu ul	{
-	display: flex;
-	justify-content: flex-end;
-  }	
+  .menu ul {
+    display: flex;
+    justify-content: flex-end;
+  }
 
   .menu li {
-	  padding-right: 1rem;
+    padding-right: 1rem;
   }
+}
