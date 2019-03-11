@@ -730,7 +730,7 @@ a:active {
   }
 } */
 
-.site-main .comment-navigation,
+/* .site-main .comment-navigation,
 .site-main .posts-navigation,
 .site-main .post-navigation {
   margin: 0 0 1.5em;
@@ -750,7 +750,7 @@ a:active {
   float: right;
   text-align: right;
   width: 50%;
-}
+} */
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -1055,17 +1055,13 @@ ol {
     padding-bottom: 0;
     align-items: center;
   }
-  /* .main-navigation {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-  } */
 
   ul.menu {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin: 0;
+    padding: 0;
   }
 
   .menu li {
