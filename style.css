@@ -1055,16 +1055,17 @@ ol {
     padding-bottom: 0;
     align-items: center;
   }
-  .main-navigation {
+  /* .main-navigation {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-  }
+  } */
 
-  .menu ul {
+  ul.menu {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
   }
 
   .menu li {
