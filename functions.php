@@ -159,3 +159,24 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+// Creates contact post type
+register_post_type('jobs', array(
+	'label' => 'Jobs',
+	'public' => true,
+	'show_ui' => true,
+	'capability_type' => 'post',
+	'hierarchical' => false,
+	'rewrite' => array('slug' => 'jobs'),
+	'query_var' => true,
+	'supports' => array(
+	'title',
+	'editor',
+	'excerpt',
+	'trackbacks',
+	'custom-fields',
+	'comments',
+	'revisions',
+	'thumbnail',
+	'author',
+	'page-attributes',)
+	) );
