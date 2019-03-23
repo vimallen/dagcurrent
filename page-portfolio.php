@@ -21,7 +21,7 @@ get_header();
 		<?php
           $loop = new WP_Query(array('post_type' => 'jobs',
           'posts_per_page' => 10,
-          'orderby'=>'title',
+          // 'orderby'=>'title',
            'order'=>'ASC',
           ));
      ?>
@@ -33,7 +33,7 @@ get_header();
      ?>
              
           <div class="module-portfolio">
-          <h4 class="underline-dashed"><?php the_title(); ?></h4>
+          <h3 class="underline-dashed"><?php the_title(); ?></h3>
           <a href="<?=$website_url?>"><?php the_post_thumbnail(); ?> </a>
           <?php the_content(); ?>
           </div>

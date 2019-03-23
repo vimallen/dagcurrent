@@ -1048,7 +1048,7 @@ ol {
 /* =Media queries----------------------------------------- */
 @media screen and (min-width: 700px) {
   body {
-    font-size: 1.25rem;
+    font-size: 1.18rem;
   }
   p {
     max-width: 40rem;
@@ -1073,5 +1073,12 @@ ol {
 
   .menu li {
     padding-right: 2rem;
+  }
+  .site-main {
+    display: flex;
+    justify-content: space-around;
+  }
+  .module-portfolio {
+    width: 30%;
   }
 }
