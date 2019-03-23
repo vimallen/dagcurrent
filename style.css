@@ -673,8 +673,7 @@ a:active {
 .main-navigation ul {
   /* display: none; */
   list-style: none;
-  /* margin: 0;
-  padding-left: 0; */
+  margin: 0;
 }
 
 /* .main-navigation ul ul {
@@ -1015,6 +1014,10 @@ object {
 :root {
   font-size: 100%;
 }
+
+.site-title {
+  margin-left: 1rem;
+}
 .site-content {
   margin: 0 auto;
   width: 80%;
@@ -1031,11 +1034,13 @@ object {
 .main-navigation {
   font-weight: 700;
 }
-
-.menu ul,
+ul#primary-menu {
+  line-height: 2;
+}
+/* .menu ul,
 ol {
   margin: 0;
-}
+} */
 
 .site-footer {
   border-top: 2px solid #d75110;
@@ -1055,7 +1060,9 @@ ol {
     padding-bottom: 0;
     align-items: center;
   }
-
+  .site-title {
+    margin-right: 12rem;
+  }
   ul.menu {
     display: flex;
     justify-content: flex-end;
@@ -1065,6 +1072,6 @@ ol {
   }
 
   .menu li {
-    padding-right: 1rem;
+    padding-right: 2rem;
   }
 }
