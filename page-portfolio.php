@@ -16,7 +16,7 @@ get_header();
 ?>
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
+		<main id="main" class="site-main-portfolio">
 
 		<?php
           $loop = new WP_Query(array('post_type' => 'jobs',
@@ -33,7 +33,7 @@ get_header();
      ?>
              
           <div class="module-portfolio">
-          <h3 class="underline-dashed"><?php the_title(); ?></h3>
+          <h3 class="module-header"><?php the_title(); ?></h3>
           <a href="<?=$website_url?>"><?php the_post_thumbnail(); ?> </a>
           <?php the_content(); ?>
           </div>
