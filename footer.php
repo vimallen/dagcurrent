@@ -14,7 +14,7 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer">
-		
+	&copy; <?php echo date("Y"); ?>	
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
