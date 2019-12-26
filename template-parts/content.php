@@ -23,7 +23,7 @@
 			<div class="entry-meta">
 				<?php
 				daveallengraphics_posted_on();
-				daveallengraphics_posted_by();
+				// daveallengraphics_posted_by();
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
@@ -53,7 +53,7 @@
 		?>
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
+	<!-- <footer class="entry-footer">
 		<?php daveallengraphics_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
+	</footer>.entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->
