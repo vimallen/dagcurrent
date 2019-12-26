@@ -1020,7 +1020,7 @@ object {
 
 .site-title {
   margin-left: 1rem;
-  text-transform: uppercase;
+  text-transform: gg;
 }
 .site-content {
   margin: 0 auto;
@@ -1033,7 +1033,7 @@ object {
 
 .site-header {
   border-bottom: 2px solid #d75110;
-  margin-bottom: 3 rem;
+  margin-bottom: 2rem;
   padding-bottom: 2rem;
 }
 
@@ -1050,6 +1050,8 @@ ol {
 
 .site-footer {
   border-top: 2px solid #d75110;
+  padding: 2rem 6rem 2rem 8rem;
+  font-size: 0.813rem;
 }
 
 .module-portfolio {
@@ -1092,7 +1094,8 @@ h3.module-header {
   }
   .site-main-portfolio {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
   .module-portfolio {
     width: 30%;
