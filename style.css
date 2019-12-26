@@ -483,7 +483,7 @@ html {
 }
 
 body {
-  background: hsl(0, 12%, 18%);
+  background: #332828;
   /* Fallback for when there is no custom background color defined. */
 }
 
@@ -640,7 +640,7 @@ a:visited {
 a:hover,
 a:focus,
 a:active {
-  color: hsl(180, 100%, 25%);
+  color: #008080;
 }
 
 a:focus {
@@ -653,7 +653,7 @@ a:active {
 }
 
 .site-header a {
-  color: #12aaaa;
+  color: #008080;
 }
 
 .site-header a:hover {
