@@ -653,7 +653,7 @@ a:active {
 }
 
 .site-header a {
-  color: #008080;
+  color: hsl(180, 100%, 32%);
 }
 
 .site-header a:hover {
@@ -1020,6 +1020,7 @@ object {
 
 .site-title {
   margin-left: 1rem;
+  text-transform: uppercase;
 }
 .site-content {
   margin: 0 auto;
@@ -1052,7 +1053,12 @@ ol {
 }
 
 .module-portfolio {
-  background-color: #eaeade;
+  background-color: #332828;
+  font-size: 0.875em;
+}
+
+h3.module-header {
+  font-size: 1.438rem;
 }
 /* =Media queries----------------------------------------- */
 @media screen and (min-width: 700px) {
