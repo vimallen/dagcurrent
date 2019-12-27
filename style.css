@@ -1020,7 +1020,7 @@ object {
 
 .site-title {
   margin-left: 1rem;
-  text-transform: gg;
+  text-transform: uppercase;
 }
 .site-content {
   margin: 0 auto;
