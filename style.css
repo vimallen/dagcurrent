@@ -1059,6 +1059,7 @@ ol {
   background-color: hsl(0, 12%, 26%);
   font-size: 0.875em;
   padding: 0.625rem;
+  border: 1px solid hsl(0, 8%, 12%);
 }
 
 h3.module-header {
