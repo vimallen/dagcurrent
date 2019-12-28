@@ -1013,7 +1013,7 @@ object {
   display: block;
 }
 
-/* =Author styles	===========================*/
+/* ==Author styles	===========================*/
 :root {
   font-size: 100%;
 }
@@ -1021,6 +1021,7 @@ object {
 .site-title {
   margin-left: 1rem;
   text-transform: uppercase;
+  letter-spacing: 0.23rem;
 }
 .site-content {
   margin: 0 auto;
@@ -1055,12 +1056,13 @@ ol {
 }
 
 .module-portfolio {
-  background-color: #332828;
+  background-color: hsl(0, 12%, 26%);
   font-size: 0.875em;
+  padding: 0.625rem;
 }
 
 h3.module-header {
-  font-size: 1.438rem;
+  font-size: 1.25rem;
 }
 /* =Media queries----------------------------------------- */
 @media screen and (min-width: 700px) {
@@ -1098,6 +1100,8 @@ h3.module-header {
     justify-content: space-between;
   }
   .module-portfolio {
-    width: 30%;
+    width: 32%;
+    margin-bottom: 1.25rem;
+    text-align: center;
   }
 }
