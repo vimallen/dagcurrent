@@ -14,7 +14,7 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer">
-	&copy; <?php echo date("Y"); ?>	
+	<p>&copy; Dave Allen Graphics <?php echo date("Y"); ?></p>	
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
