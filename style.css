@@ -1013,15 +1013,9 @@ object {
   display: block;
 }
 
-/* ==Author styles	===========================*/
+/* =Author styles	===========================*/
 :root {
   font-size: 100%;
-}
-
-.site-title {
-  margin-left: 1rem;
-  text-transform: uppercase;
-  letter-spacing: 0.23rem;
 }
 .site-content {
   margin: 0 auto;
@@ -1082,7 +1076,7 @@ h3.module-header {
     margin-bottom: 3rem;
   }
   .site-title {
-    margin-right: 12rem;
+    margin-right: 22rem;
   }
   ul.menu {
     display: flex;
