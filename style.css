@@ -1092,7 +1092,7 @@ h3.module-header {
   .site-main-portfolio {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .module-portfolio {
     width: 32%;
