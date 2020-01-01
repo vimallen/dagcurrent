@@ -1059,6 +1059,10 @@ ol {
 h3.module-header {
   font-size: 1.25rem;
 }
+
+.wp-block-image figcaption {
+  font-size: 0.9375rem;
+}
 /* =Media queries----------------------------------------- */
 @media screen and (min-width: 700px) {
   body {
