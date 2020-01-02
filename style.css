@@ -1031,6 +1031,9 @@ object {
   margin-bottom: 2rem;
   padding-bottom: 2rem;
 }
+h1.site-title {
+  margin-left: 2rem;
+}
 
 .main-navigation {
   font-weight: 700;
@@ -1081,6 +1084,10 @@ h3.module-header {
   }
   .site-title {
     margin-right: 22rem;
+  }
+
+  h1.site-title {
+    margin-left: 0;
   }
   ul.menu {
     display: flex;
