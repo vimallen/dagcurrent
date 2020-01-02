@@ -1073,7 +1073,7 @@ h3.module-header {
 
 .wp-block-quote {
   font-style: italic;
-  border-left: 2ps solid #666;
+  border-left: 2px solid #666;
 }
 /* =Media queries----------------------------------------- */
 @media screen and (min-width: 700px) {
