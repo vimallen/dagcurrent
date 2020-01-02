@@ -434,6 +434,7 @@ address {
 pre {
   background: #eee;
   font-family: "Courier 10 Pitch", Courier, monospace;
+  color: #332828;
   font-size: 15px;
   font-size: 0.9375rem;
   line-height: 1.6;
@@ -1020,6 +1021,7 @@ object {
 .site-content {
   margin: 0 auto;
   width: 80%;
+  margin-bottom: 2rem;
 }
 
 .site-branding a {
@@ -1041,12 +1043,14 @@ h1.site-title {
 ul#primary-menu {
   line-height: 2;
 }
-/* .menu ul,
+ul,
 ol {
-  margin: 0;
-} */
+  max-width: 38rem;
+}
 
 .site-footer {
+  display: flex;
+  justify-content: center;
   border-top: 2px solid #d75110;
   padding: 2rem 6rem 2rem 8rem;
   font-size: 0.813rem;
@@ -1065,6 +1069,11 @@ h3.module-header {
 
 .wp-block-image figcaption {
   font-size: 0.9375rem;
+}
+
+.wp-block-quote {
+  font-style: italic;
+  border-left: 2ps solid #666;
 }
 /* =Media queries----------------------------------------- */
 @media screen and (min-width: 700px) {
