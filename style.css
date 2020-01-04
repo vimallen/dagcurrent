@@ -1043,10 +1043,6 @@ h1.site-title {
 ul#primary-menu {
   line-height: 2;
 }
-ul,
-ol {
-  max-width: 38rem;
-}
 
 .site-footer {
   display: flex;
