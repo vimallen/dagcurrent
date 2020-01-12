@@ -22,7 +22,7 @@ get_header();
           $loop = new WP_Query(array('post_type' => 'jobs',
           'posts_per_page' => 36,
           'orderby'=>'date',
-           'order'=>'DESC',
+           'order'=>'ASC',
           ));
      ?>
      <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
