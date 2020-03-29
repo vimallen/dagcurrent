@@ -13,10 +13,12 @@
  */
 
 get_header();
+get_sidebar();
 ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
+		
 
 		<?php
 		if ( have_posts() ) :

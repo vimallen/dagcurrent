@@ -678,7 +678,7 @@ a:active {
 }
 .current_page_item,
 .current-menu-ancestor {
-  border-bottom: 4px solid teal;
+  border-bottom: 2px solid teal;
 }
 /* .main-navigation ul ul {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
