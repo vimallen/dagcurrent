@@ -677,7 +677,7 @@ a:active {
 }
 .current_page_item,
 .current-menu-ancestor {
-  border-bottom: 4px solid teal;
+  border-bottom: 2px solid teal;
 }
 /* .main-navigation ul ul {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -1022,6 +1022,10 @@ object {
   width: 80%;
 }
 
+h1.site-title {
+  text-align: center;
+}
+
 .site-branding a {
   text-decoration: none;
 }
@@ -1044,8 +1048,10 @@ ol {
 } */
 
 .site-footer {
+  margin: 0 auto;
+  width: 80%;
   border-top: 2px solid #d75110;
-  padding: 2rem 6rem 2rem 8rem;
+  /* padding: 2rem 6rem 2rem 8rem; */
   font-size: 0.813rem;
 }
 
@@ -1071,10 +1077,13 @@ h3.module-header {
   p {
     max-width: 40rem;
   }
-
+  header#masthead {
+    margin: 0 auto;
+    width: 80%;
+}
   .site-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding-bottom: 0;
     align-items: center;
     margin-bottom: 3rem;
@@ -1088,6 +1097,10 @@ h3.module-header {
     align-items: center;
     margin: 0;
     padding: 0;
+  }
+
+  .site-content {
+    margin-top: 3rem;
   }
 
   .menu li {
