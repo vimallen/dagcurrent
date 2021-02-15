@@ -434,6 +434,7 @@ address {
 pre {
   background: #eee;
   font-family: "Courier 10 Pitch", Courier, monospace;
+  color: #332828;
   font-size: 15px;
   font-size: 0.9375rem;
   line-height: 1.6;
@@ -496,7 +497,7 @@ hr {
 
 ul,
 ol {
-  margin: 0 0 1.5em 3em;
+  margin: 0 0 1.5em 0em;
 }
 
 ul {
@@ -653,7 +654,7 @@ a:active {
 }
 
 .site-header a {
-  color: hsl(180, 100%, 32%);
+  color: hsl(180, 100%, 37%);
 }
 
 .site-header a:hover {
@@ -1020,6 +1021,7 @@ object {
 .site-content {
   margin: 0 auto;
   width: 80%;
+  margin-bottom: 2rem;
 }
 
 h1.site-title {
@@ -1035,6 +1037,9 @@ h1.site-title {
   margin-bottom: 2rem;
   padding-bottom: 2rem;
 }
+h1.site-title {
+  margin-left: 2rem;
+}
 
 .main-navigation {
   font-weight: 700;
@@ -1042,14 +1047,15 @@ h1.site-title {
 ul#primary-menu {
   line-height: 2;
 }
-/* .menu ul,
-ol {
-  margin: 0;
-} */
 
 .site-footer {
+<<<<<<< HEAD
   margin: 0 auto;
   width: 80%;
+=======
+  display: flex;
+  justify-content: center;
+>>>>>>> f67c7e9ef3d9768c3934c7f8609b97677a3e6493
   border-top: 2px solid #d75110;
   /* padding: 2rem 6rem 2rem 8rem; */
   font-size: 0.813rem;
@@ -1068,6 +1074,11 @@ h3.module-header {
 
 .wp-block-image figcaption {
   font-size: 0.9375rem;
+}
+
+.wp-block-quote {
+  font-style: italic;
+  border-left: 2px solid #666;
 }
 /* =Media queries----------------------------------------- */
 @media screen and (min-width: 700px) {
@@ -1090,6 +1101,10 @@ h3.module-header {
   }
   .site-title {
     margin-right: 22rem;
+  }
+
+  h1.site-title {
+    margin-left: 0;
   }
   ul.menu {
     display: flex;
