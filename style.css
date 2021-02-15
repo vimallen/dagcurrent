@@ -1049,13 +1049,8 @@ ul#primary-menu {
 }
 
 .site-footer {
-<<<<<<< HEAD
   margin: 0 auto;
   width: 80%;
-=======
-  display: flex;
-  justify-content: center;
->>>>>>> f67c7e9ef3d9768c3934c7f8609b97677a3e6493
   border-top: 2px solid #d75110;
   /* padding: 2rem 6rem 2rem 8rem; */
   font-size: 0.813rem;

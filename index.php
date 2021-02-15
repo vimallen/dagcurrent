@@ -13,11 +13,7 @@
  */
 
 get_header();
-<<<<<<< HEAD
-get_sidebar()
-=======
 get_sidebar();
->>>>>>> f67c7e9ef3d9768c3934c7f8609b97677a3e6493
 ?>
 
 	<div id="primary" class="content-area">
