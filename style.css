@@ -397,7 +397,7 @@ input,
 select,
 optgroup,
 textarea {
-  color: #fffff0;
+  color: #ffffff;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.0625rem;
   line-height: 1.5;
@@ -425,6 +425,7 @@ i {
 
 blockquote {
   margin: 0 1.5em;
+  padding-left: 1rem;
 }
 
 address {
@@ -484,7 +485,7 @@ html {
 }
 
 body {
-  background: #332828;
+  background: #06747F;
   /* Fallback for when there is no custom background color defined. */
 }
 
@@ -631,17 +632,17 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-  color: #d75110;
+  color: #5CF0FF;
 }
 
 a:visited {
-  color: #d75110;
+  color: #5CF0FF;
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: #008080;
+  color: hsl(180, 67%, 65%);
 }
 
 a:focus {
@@ -654,11 +655,11 @@ a:active {
 }
 
 .site-header a {
-  color: hsl(180, 100%, 37%);
+  color: #5CF0FF;
 }
 
 .site-header a:hover {
-  color: hsl(180, 100%, 25%);
+  color: hsl(180, 67%, 65%);
 }
 
 /*--------------------------------------------------------------
@@ -678,7 +679,7 @@ a:active {
 }
 .current_page_item,
 .current-menu-ancestor {
-  border-bottom: 2px solid teal;
+  border-bottom: 2px solid #5CF0FF;
 }
 /* .main-navigation ul ul {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -1033,7 +1034,7 @@ h1.site-title {
 }
 
 .site-header {
-  border-bottom: 2px solid #d75110;
+  border-bottom: 4px solid #D2691E;
   margin-bottom: 2rem;
   padding-bottom: 2rem;
 }
@@ -1051,16 +1052,16 @@ ul#primary-menu {
 .site-footer {
   margin: 0 auto;
   width: 80%;
-  border-top: 2px solid #d75110;
+  border-top: 4px solid #D2691E;
   /* padding: 2rem 6rem 2rem 8rem; */
   font-size: 0.813rem;
 }
 
 .module-portfolio {
-  background-color: hsl(0, 12%, 26%);
+  background-color: hsl(185, 91%, 29%);
   font-size: 0.875em;
   padding: 0.625rem;
-  border: 1px solid hsl(0, 8%, 12%);
+  /* border: 1px solid hsl(0, 8%, 12%); */
 }
 
 h3.module-header {
@@ -1073,7 +1074,7 @@ h3.module-header {
 
 .wp-block-quote {
   font-style: italic;
-  border-left: 2px solid #666;
+  border-left: 2px solid #f7a970;
 }
 /* =Media queries----------------------------------------- */
 @media screen and (min-width: 700px) {
