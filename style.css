@@ -397,7 +397,7 @@ input,
 select,
 optgroup,
 textarea {
-  color: #ffffff;
+  color: #055a61;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.0625rem;
   line-height: 1.5;
@@ -485,7 +485,7 @@ html {
 }
 
 body {
-  background: #06747F;
+  background: #f6f7f3;
   /* Fallback for when there is no custom background color defined. */
 }
 
@@ -632,11 +632,11 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-  color: #5CF0FF;
+  color: #D2691E
 }
 
 a:visited {
-  color: #5CF0FF;
+  color: #D2691E;
 }
 
 a:hover,
@@ -655,7 +655,7 @@ a:active {
 }
 
 .site-header a {
-  color: #5CF0FF;
+  color: #06747F;
 }
 
 .site-header a:hover {
@@ -679,7 +679,7 @@ a:active {
 }
 .current_page_item,
 .current-menu-ancestor {
-  border-bottom: 2px solid #5CF0FF;
+  border-bottom: 2px solid #D2691E;
 }
 /* .main-navigation ul ul {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -1058,7 +1058,7 @@ ul#primary-menu {
 }
 
 .module-portfolio {
-  background-color: hsl(185, 91%, 29%);
+  background-color: #eeeeee; 
   font-size: 0.875em;
   padding: 0.625rem;
   /* border: 1px solid hsl(0, 8%, 12%); */
