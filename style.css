@@ -397,7 +397,7 @@ input,
 select,
 optgroup,
 textarea {
-  color: #055a61;
+  color: #212121;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.0625rem;
   line-height: 1.5;
@@ -485,7 +485,7 @@ html {
 }
 
 body {
-  background: #f6f7f3;
+  background: #ffffff;
   /* Fallback for when there is no custom background color defined. */
 }
 
@@ -655,7 +655,7 @@ a:active {
 }
 
 .site-header a {
-  color: #06747F;
+  color: #212121; 
 }
 
 .site-header a:hover {
@@ -1034,7 +1034,7 @@ h1.site-title {
 }
 
 .site-header {
-  border-bottom: 4px solid #D2691E;
+  border-bottom: 3px solid #00796b;
   margin-bottom: 2rem;
   padding-bottom: 2rem;
 }
@@ -1052,7 +1052,7 @@ ul#primary-menu {
 .site-footer {
   margin: 0 auto;
   width: 80%;
-  border-top: 4px solid #D2691E;
+  border-top: 3px solid #00796b;
   /* padding: 2rem 6rem 2rem 8rem; */
   font-size: 0.813rem;
 }
